@@ -39,7 +39,7 @@ public class Banking_BaseClass {
 
 		logger = logger.getLogger("23JulyAutomation Framework");
 		PropertyConfigurator.configure("Log4j.properties");
-System.out.println("Hello");
+
 		if (Brwosername.equals("Chrome")) { // True
 			System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
 			driver = new ChromeDriver(); // Top open the browser
